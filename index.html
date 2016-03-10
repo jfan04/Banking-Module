@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercise</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/app.css">
+	<script src="js/jquery-1.12.1.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="curtain">
+		<div id="page1">
+			<ul class="ul">
+				<li>
+					<a onclick="showP2()">
+					<table>
+					<tr>
+						<td class="lcell"><img class="icon" src="image/dollar_sign.png"></td>
+						<td class="mcell"><span style="color: #606060;font-size: 12px">CASH</span><br>$2,839.00</td>
+						<td class="rcell">
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								</div>
+							</div>
+						</td>
+					</tr>
+					</table>
+					</a>
+				</li>
+				<li>
+					<a onclick="showP2()">
+					<table>
+					<tr>
+						<td class="lcell"><img class="icon" src="image/dollar_sign.png"></td>
+						<td class="mcell"><span style="color: #606060;font-size: 12px">CREDIT CARDS</span><br>$2,839.00</td>
+						<td class="rcell">
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+								</div>
+							</div>
+						</td>
+					</tr>
+					</table>
+					</a>
+				</li>
+				<li>
+					<a onclick="showP2()">
+					<table>
+					<tr>
+						<td class="lcell"><img class="icon" src="image/dollar_sign.png"></td>
+						<td class="mcell"><span style="color: #606060;font-size: 12px">BILLS</span><br>$2,839.00</td>
+						<td class="rcell">
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								</div>
+							</div>
+						</td>
+					</tr>
+					</table>
+					</a>
+				</li>
+				<li>
+					<a onclick="showP2()">
+					<table>
+					<tr>
+						<td class="lcell"><img class="icon" src="image/dollar_sign.png"></td>
+						<td class="mcell"><span style="color: #606060;font-size: 12px">INVESTMENTS</span><br>$2,839.00</td>
+						<td class="rcell">
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+								</div>
+							</div>
+						</td>
+					</tr>
+					</table>
+					</a>
+				</li>
+				<li>
+					<a onclick="showP2()">
+					<table>
+					<tr>
+						<td class="lcell"><img class="icon" src="image/dollar_sign.png"></td>
+						<td class="mcell"><span style="color: #606060;font-size: 12px">INVESTMENTS</span><br>$2,839.00</td>
+						<td class="rcell">
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+								</div>
+							</div>
+						</td>
+					</tr>
+					</table>
+					</a>
+				</li>
+				<li>
+					<a onclick="showP2()">
+					<table>
+					<tr>
+						<td class="lcell"><img class="icon" src="image/dollar_sign.png"></td>
+						<td class="mcell"><span style="color: #606060;font-size: 12px">INVESTMENTS</span><br>$2,839.00</td>
+						<td class="rcell">
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+								</div>
+							</div>
+						</td>
+					</tr>
+					</table>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="page2">
+		<div class="summary">
+			<span class="span">CREDIT CARDS SUMMARY</span><br>
+			<div class="progressbar">
+				<div class="progress summarybar">
+					<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+					</div>
+				</div>
+			</div>
+			<ul>
+				<li> Minimum payment due on 01/01/2013:<span id="amount">$000.00</span>
+				</li>
+				<li> Total current balance:<span id="amount">$000.00</span>
+				</li>
+				<li> Total available credit:<span id="amount">$000.00</span>
+				</li>
+			</ul>
+		</div>
+		<div class="detail">
+			<ul>
+				<li>
+					<a>
+					<table>
+					<tr>
+						<td class="lcell"><img class="icon" src="image/dollar_sign.png"></td>
+						<td class="mcell"><span style="color: #606060;font-size: 12px">CampusEdge Credit</span><br>$2,854.27<br><span span style="color: #606060;font-size: 8px">Updated 5 minutes ago</span></td>
+						<td class="rcell">
+							<div class="progress summarybar">
+								<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								</div>
+							</div>
+						</td>
+					</tr>
+					</table>
+					</a>
+				</li>
+				<li>
+					<a>
+					<table>
+					<tr>
+						<td class="lcell"><img class="icon" src="image/dollar_sign.png"></td>
+						<td class="mcell"><span style="color: #606060;font-size: 12px">Primary Credit Card</span><br>$2,854.27<br><span span style="color: #606060;font-size: 8px">Updated 5 minutes ago</span></td>
+						<td class="rcell">
+							<div class="progress summarybar">
+								<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								</div>
+							</div>
+						</td>
+					</tr>
+					</table>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="button">
+			<button class="btn" onclick="showP3()">DETAIL LISTS</button>
+			<button class="btn" onclick="dismissP2()">BACK</button>
+		</div>
+	</div>
+
+	<div id="page3">
+		<div class="search">
+			<input id="input" placeholder="&#128269; ">
+		</div>
+		<div class="list">
+			<ul class="ul">
+				<li class="th">
+					<a>
+					<table>
+					<tr>
+						<th class="lcell"></th>
+						<th class="mcell">Amount</th>
+						<th class="rcell">Balance</th>
+					</tr>
+					</table>
+					</a>
+				</li>
+				<li>
+					<a>
+					<table>
+					<tr>
+						<td class="lcell"><img class="icon" src="image/dollar_sign.png">Bed Bath & Beyond<br><span style="color: #606060;font-size: 12px">01/15/2013</span></td>
+						<td class="mcell">$283.57</td>
+						<td class="rcell">$1,764.98</td>
+					</tr>
+					</table>
+					</a>
+				</li>
+				<li>
+					<a>
+					<table>
+					<tr>
+						<td class="lcell"><img class="icon" src="image/dollar_sign.png">Angel Island<br><span style="color: #606060;font-size: 12px">01/15/2013</span></td>
+						<td class="mcell">$283.57</td>
+						<td class="rcell">$1,764.98</td>
+					</tr>
+					</table>
+					</a>
+				</li>
+				<li>
+					<a>
+					<table>
+					<tr>
+						<td class="lcell"><img class="icon" src="image/dollar_sign.png">Freshroll<br><span style="color: #606060;font-size: 12px">01/15/2013</span>
+						<td class="mcell">$283.57</td>
+						<td class="rcell">$1,764.98</td>
+					</tr>
+					</table>
+					</a>
+				</li>
+				<li>
+					<a>
+					<table>
+					<tr>
+						<td class="lcell"><img class="icon" src="image/dollar_sign.png">Lyft<br><span style="color: #606060;font-size: 12px">01/15/2013</span></td>
+						<td class="mcell">$283.57</td>
+						<td class="rcell">$1,764.98</td>
+					</tr>
+					</table>
+					</a>
+				</li>
+				<li>
+					<a>
+					<table>
+					<tr>
+						<td class="lcell"><img class="icon" src="image/dollar_sign.png">Whole Foods<br><span style="color: #606060;font-size: 12px">01/15/2013</span></td>
+						<td class="mcell">$283.57</td>
+						<td class="rcell">$1,764.98</td>
+					</tr>
+					</table>
+					</a>
+				</li>
+				<li>
+					<a>
+					<table>
+					<tr>
+						<td class="lcell"><img class="icon" src="image/dollar_sign.png">Starbucks<br><span style="color: #606060;font-size: 12px">01/15/2013</span></td>
+						<td class="mcell">$283.57</td>
+						<td class="rcell">$1,764.98</td>
+					</tr>
+					</table>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="button">
+			<button class="btn" onclick="dismissP3()">BACK</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
